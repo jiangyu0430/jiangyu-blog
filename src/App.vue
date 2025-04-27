@@ -1,30 +1,21 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="min-h-screen flex flex-col items-center justify-center bg-white text-center p-8">
+    <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+      Welcome to Jiangyu's Blog
+    </h1>
+    <p class="text-lg md:text-xl text-gray-600 mb-8">
+      Discover new ideas, stories, and inspirations.
+    </p>
+    <button class="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition">
+      Get Started
+    </button>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
+<script setup>
+// 暂时不需要脚本逻辑
+</script>
+
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+/* 如果想加一点额外细节，比如动画，可以在这里写 */
 </style>
