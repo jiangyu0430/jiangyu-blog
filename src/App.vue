@@ -1,21 +1,28 @@
 <template>
-  <div class="min-h-screen flex flex-col items-center justify-center bg-white text-center p-8">
-    <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-      Welcome to Jiangyu's Blog
-    </h1>
-    <p class="text-lg md:text-xl text-gray-600 mb-8">
-      Discover new ideas, stories, and inspirations.
-    </p>
-    <button class="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition">
-      Get Started
-    </button>
+  <div class="min-h-screen flex flex-col bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow-md py-4 px-8">
+      <h1 class="text-2xl font-bold text-indigo-600">我的博客</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-8">
+      <section class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow">
+        <h2 class="text-xl font-semibold mb-4">欢迎来到我的博客</h2>
+        <p class="text-gray-700 leading-relaxed">
+          这是一个使用 Vue 3 + Tailwind CSS 构建的简单博客页面模板。
+          你可以在这里修改内容，添加组件，实现你自己的博客功能。
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white text-center py-4 border-t text-sm text-gray-500">
+      © 2025 JiangYu. 保留所有权利。
+    </footer>
   </div>
 </template>
 
 <script setup>
-// 暂时不需要脚本逻辑
+// 暂时无需逻辑代码
 </script>
-
-<style scoped>
-/* 如果想加一点额外细节，比如动画，可以在这里写 */
-</style>
